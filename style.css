@@ -188,7 +188,7 @@ body{
 
 /* <!------------ Responsive Navbar Section-------------> */ 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:840px){
     .nav-list{
         width: 250px;
         height: 100vh;
