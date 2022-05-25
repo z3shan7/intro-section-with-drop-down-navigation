@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <!------------------Navbar Section------------------>
+  <section class="navbar">
+    <div class="logo-img">
+      <img src="./images/logo.svg" alt="Company-logo" class="company-logo">
+      <div class="nav-list">
+        <ul class="list-1">
+          <li class="nav-links" id="drop-feature">Features <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrow-toggle"></li>
+          <ul class="featured" id="featured">
+            <li class="drop-down-links"><img src="./images/icon-todo.svg" alt="todo-list" class="drop-down-icons">Todo List</li>
+            <li class="drop-down-links"><img src="./images/icon-calendar.svg" alt="todo-list" class="drop-down-icons">Calender</li>
+            <li class="drop-down-links"><img src="./images/icon-reminders.svg" alt="todo-list" class="drop-down-icons">Reminders</li>
+            <li class="drop-down-links"><img src="./images/icon-planning.svg" alt="todo-list" class="drop-down-icons">Planing</li>
+          </ul>
+          <li class="nav-links" id="comp">Company <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrow-toggle" id="arrow-2"></li>
+          <ul class="company" id="company">
+            <li class="drop-down-links">History</li>
+            <li class="drop-down-links">Our Team</li>
+            <li class="drop-down-links">Blog</li>
+          </ul>
+          <li class="nav-links">Careers</li>
+          <li class="nav-links">About</li>
+        </ul>
+      </div>
+      </div>
+      <div>
+        <ul class="list-2">
+          <li>Login</li>
+          <button type="submit" class="Sub-Btn Btn"> Register</button>
+        </ul>
+        <div class="sidenav">
+          <img src="./images/icon-menu.svg" alt="hamburger-menu" class="open-icon">
+          <img src="./images/icon-close-menu.svg" alt="x-icon" class="close-icon">
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------Navbar Section Ends----------------->
+    <!-- ---------------Hero section--------------- -->
+    
+    <section class="hero-section">
+      <div class="description">
+          <h1 class="title">Make <br> remote work</h1>
+          <h1 class="responsive">Make remote work</h1>
+          <p class="text"> Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.</p>
+            <button class="learn-btn">Learn More</button>
+            <div class="partners">
+              <img src="./images/client-databiz.svg" alt="company-logo" class="partner-img">
+              <img src="./images/client-audiophile.svg" alt="company-logo" class="partner-img">
+              <img src="./images/client-meet.svg" alt="company-logo" class="partner-img">
+              <img src="./images/client-maker.svg" alt="company-logo" class="partner-img">
+            </div>
+      </div>
+      <div class="banner-img">
+        <img src="./images/image-hero-desktop.png" alt="design" class="hero-img">
+        <img src="./images/image-hero-mobile.png" alt="phone-design" class="hero-img-mobile">
+      </div>
+    </section> 
+    <!-- ----------------Hero section Ends----------------- -->
+   <script src="script.js"></script>
+</body>
+</html>
