@@ -158,11 +158,16 @@ body{
     
 }
 
-.list-2 li{
+.list-2 .btn{
     padding: 0 20px;
     color: var(--Medium-Gray);
+    border: none;
+    font-size: 18px;
+    background:transparent;
+    font-family: var(--ff);
+    
 }
-.list-2 li:hover{
+.list-2 .btn:hover{
     color: var(--Almost-Black);
     cursor: pointer;
 }
@@ -171,6 +176,7 @@ body{
     background: transparent;
     padding: 8px 20px;
     border: 2px solid var(--Medium-Gray);
+    font-family: var(--ff);
     border-radius: 10px;
     font-size: 16px;
     margin-left: 20px;
@@ -179,6 +185,7 @@ body{
 .list-2 .Sub-Btn:hover{
     border-color: var(--Almost-Black);
     color: var(--Almost-Black);
+    cursor: pointer;
     
 }
 .sidenav{
